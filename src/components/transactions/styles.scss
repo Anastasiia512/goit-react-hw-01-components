@@ -1,0 +1,24 @@
+.transaction-history {
+    width: 1000px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 40px;
+}
+
+thead {
+    background-color: lightskyblue;
+}
+
+tr {
+    border: 1px solid #ccc;
+
+    &:nth-of-type(even) {
+        background-color: rgb(242, 244, 247);
+    }
+}
+
+td, th {
+    border: 1px solid #ccc;
+    height: 30px;
+}
